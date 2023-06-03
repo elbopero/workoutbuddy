@@ -40,6 +40,9 @@ const createWorkout = async (req, res) => {
     if(!reps){
         emptyFields.push('reps')
     }
+    if(emptyFields.length > 0){
+        return res.status(400).json({error: 'Please fill in all the fields', emptyFields})
+    }
 
 
     // add doc to db

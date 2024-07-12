@@ -1,3 +1,13 @@
+# Mern tutorial
+
+## Technologies used:
+
+- [x] MongoDB
+- [x] Express
+- [x] React
+- [x] Node
+
+
 First project using the MERN stack.
 
 A simple web application that allows users to create accounts and login using authentication.
